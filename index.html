@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Piola Toptan Gömlek - Yeni sezon koleksiyonu ve ürün detayları." />
+    <title>Piola | Toptan Gömlek Koleksiyonu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#top" aria-label="Piola ana sayfa">
+          <span class="brand-mark">P</span>
+          <span>PIOLA</span>
+        </a>
+        <nav class="desktop-nav" aria-label="Ana menü">
+          <a href="#koleksiyon">Koleksiyon</a>
+          <a href="#hakkimizda">Biz kimiz?</a>
+          <a href="#iletisim">İletişim</a>
+        </nav>
+        <a class="catalog-link" href="#koleksiyon">Kataloğu incele <span>↗</span></a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">2026 / SONBAHAR KIŞ</p>
+          <h1>Gömleğin<br /><em>yeni yorumu.</em></h1>
+          <p class="hero-text">Piola'nın seçilmiş toptan gömlek koleksiyonu. Kumaş, renk ve beden detaylarını tek yerde keşfedin.</p>
+          <a class="button button-dark" href="#koleksiyon">Koleksiyonu keşfet <span>↓</span></a>
+        </div>
+        <div class="hero-art" aria-label="Koleksiyon tanıtım görseli">
+          <div class="hero-shape"></div>
+          <img src="assets/media/photo_2026-09-03_23-53-01.jpg" alt="Piola yeni sezon gömlek" />
+          <span class="hero-stamp">PIOLA<br /><small>EST. 2014</small></span>
+        </div>
+      </section>
+
+      <section class="showcase container" aria-label="Öne çıkan gömlekler">
+        <div class="showcase-heading">
+          <p class="eyebrow">ÖNE ÇIKANLAR</p>
+          <p>Yeni sezon modellerini kaydırarak inceleyin.</p>
+        </div>
+        <div class="piola-slider-container">
+          <div class="swiper piolaSlider">
+            <div class="swiper-wrapper" id="sliderWrapper"></div>
+            <button class="swiper-button-prev" aria-label="Önceki ürün"></button>
+            <button class="swiper-button-next" aria-label="Sonraki ürün"></button>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" id="hakkimizda">
+        <div class="container intro-grid">
+          <p class="eyebrow">BİZ KİMİZ?</p>
+          <div>
+            <h2>Ürünü görmeden<br /><em>seçim yapılmaz.</em></h2>
+            <p>Mağazanız için doğru ürünü seçmenizi kolaylaştırıyoruz. Her modelin renk, beden ve kumaş bilgisini açıkça sunuyor; sipariş vermeden önce koleksiyonu yakından incelemenize yardımcı oluyoruz.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="collection container" id="koleksiyon">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">KATALOĞU KEŞFET</p>
+            <h2>Sezon seçkisi</h2>
+          </div>
+          <p class="product-count"><span id="productCount">17</span> ürün</p>
+        </div>
+        <div class="toolbar">
+          <div class="filters" role="group" aria-label="Kategori filtreleri">
+            <button class="filter active" data-filter="all">Tümü</button>
+            <button class="filter" data-filter="klasik">Klasik</button>
+            <button class="filter" data-filter="oversize">Oversize</button>
+            <button class="filter" data-filter="desenli">Desenli</button>
+          </div>
+          <label class="search">
+            <span aria-hidden="true">⌕</span>
+            <input id="searchInput" type="search" placeholder="Ürün ara..." aria-label="Ürün ara" />
+          </label>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+        <p class="empty-state" id="emptyState" hidden>Aramanızla eşleşen ürün bulunamadı.</p>
+      </section>
+
+      <section class="video-strip container">
+        <div class="video-heading">
+          <p class="eyebrow">YAKINDAN İNCELE</p>
+          <h2>Detayları<br /><em>hareket halinde görün.</em></h2>
+          <p>Ürünlerin duruşunu ve dokusunu kısa video kliplerle inceleyin.</p>
+        </div>
+        <div class="video-list" id="videoList"></div>
+      </section>
+
+      <section class="contact-band" id="iletisim">
+        <div class="container contact-content">
+          <p class="eyebrow">TOPTAN İLETİŞİM</p>
+          <h2>Koleksiyon hakkında<br /><em>konuşalım.</em></h2>
+          <p>Ürün kodu ve detaylarıyla birlikte bize ulaşın.</p>
+          <div class="contact-actions">
+            <a class="button button-light" href="https://t.me/piolaclubb" target="_blank" rel="noreferrer">Telegram'dan ulaşın <span>↗</span></a>
+            <a class="button button-outline-light" href="https://www.instagram.com/piolaclub/" target="_blank" rel="noreferrer">Instagram <span>↗</span></a>
+          </div>
+          <div class="contact-details">
+            <a href="https://www.google.com/maps/search/?api=1&query=Ortaklar+İş+Merkezi,+Topçular,+Rami+Kışla+Cd.+No:44,+34055+Eyüpsultan%2Fİstanbul" target="_blank" rel="noreferrer">
+              <strong>Adres</strong>
+              <span>Ortaklar İş Merkezi, Topçular, Rami Kışla Cd. No:44,<br />34055 Eyüpsultan / İstanbul</span>
+            </a>
+            <a href="tel:+902125440202">
+              <strong>Telefon</strong>
+              <span>0212 544 20 02</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <span class="brand footer-brand"><span class="brand-mark">P</span><span>PIOLA</span></span>
+      <span>© 2026 Piola Toptan</span>
+      <span><a href="https://www.instagram.com/piolaclub/" target="_blank" rel="noreferrer">Instagram</a> · <a href="https://t.me/piolaclubb" target="_blank" rel="noreferrer">Telegram</a></span>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
